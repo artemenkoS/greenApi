@@ -1,0 +1,23 @@
+.phoneNumberInput {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: var(--borderRadius);
+  }
+  
+  .createChatButton {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: var(--borderRadius);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .createChatButton:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
